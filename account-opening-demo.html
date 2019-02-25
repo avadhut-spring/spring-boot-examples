@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>HTML Forms</h2>
+
+<form action="http://localhost:8080/openAccount">
+  Full name:<br>
+  <input type="text" name="name">
+  <br>
+  Account Type:<br>
+  <select name="accountType">
+  <option value="Savings" selcted>Savings</option>
+  <option value="Current">Current</option>
+  <option value="Loan">Loan</option>
+  <option value="Fixed Deposit">Fixed Deposit</option>
+</select>
+  <br>
+  Address:<br>
+  <input type="text" name="address">
+  <br><br>
+  <input type="submit" value="Submit">
+</form> 
+
+<p>If you click the "Submit" button, the form-data will be sent to a page called "/openAccount service".</p>
+
+</body>
+</html>
